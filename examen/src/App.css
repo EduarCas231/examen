@@ -1,0 +1,144 @@
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f4f4f4;
+}
+
+/* Navbar */
+nav {
+  background-color: #333;
+  padding: 10px;
+  color: white;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: flex-start;
+  padding: 0;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+/* Estilos para el Login */
+.login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #ffffff;
+}
+
+.login-container h2 {
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.login-container form {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+
+.login-container input {
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  font-size: 16px;
+}
+
+.login-container button {
+  padding: 10px;
+  background-color: #007BFF;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.login-container button:hover {
+  background-color: #0056b3;
+}
+
+.login-container p {
+  color: red;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* Estilos de la página de inicio */
+.app-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.app-container .logo-container {
+  margin-bottom: 30px;
+}
+
+.app-container .logo {
+  width: 200px;
+}
+
+.app-container .title-container h1 {
+  font-size: 32px;
+  color: #333;
+}
+
+.app-container .title-container p {
+  font-size: 16px;
+  color: #555;
+}
+
+.app-container .timeline-container {
+  margin-top: 30px;
+  width: 80%;
+}
+
+.app-container .timeline-event {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+}
+
+.app-container .timeline-date {
+  font-weight: bold;
+  color: #007BFF;
+  margin-right: 20px;
+}
+
+.app-container .timeline-content {
+  max-width: 600px;
+}
+
+.app-container .timeline-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.app-container .timeline-text {
+  font-size: 14px;
+  color: #555;
+}
